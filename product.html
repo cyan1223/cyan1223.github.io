@@ -1,22 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>CYAN工作室/产品</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我们的产品 - CYAN工作室</title>
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <div>
-        <h1>我们的产品</h1>
+    <header class="main-header">
+        <div class="container">
+            <h1 class="logo">CYAN<span>工作室</span></h1>
+            <p class="tagline">"代码铸就未来，算法改变世界——用严谨的逻辑书写无限可能。"</p>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="product.html" class="active">产品</a></li>
+                <li><a href="introduce.html">关于我们</a></li>
+                <li><a href="contact.html">联系我们</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="products-section">
+            <h2>我们的产品</h2>
+
+            <div class="product-filters">
+                <button class="filter-btn active" data-filter="all">全部</button>
+                <button class="filter-btn" data-filter="app">应用程序</button>
+                <button class="filter-btn" data-filter="web">网站</button>
+                <button class="filter-btn" data-filter="tool">工具</button>
+            </div>
+
+            <div class="products-grid">
+                <article class="product-card" data-category="app">
+                    <div class="product-image">
+                        <span class="product-badge">热门</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>后室阅览器</h3>
+                        <p class="product-desc">一个专为探索后室世界设计的阅读应用，提供流畅的阅读体验和丰富的内容。</p>
+                        <div class="product-meta">
+                            <span class="product-category">应用程序</span>
+                            <span class="product-rating">★★★★☆</span>
+                        </div>
+                        <a href="#" class="btn">查看详情</a>
+                    </div>
+                </article>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2023 CYAN工作室. 保留所有权利.</p>
+        </div>
+    </footer>
     </div>
-    <div>
-        <p>后室阅览器 windows版1.0.0</p>
-        <h5 style="color:red;">我们正在扩充数据库</h5>
-        <a download="后室阅览器" href="product/后室阅览器.zip">
-            <p>下载按钮</p>
-            <img src="images/backroom.png">
-        </a>
-    </div>
-    <a href="index.html">回到主页</a>
+        </section>
+    </main>
+    <script src="js/products.js"></script>
 </body>
 </html>

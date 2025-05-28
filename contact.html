@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>联系我们 - CYAN工作室</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <h1 class="logo">CYAN<span>工作室</span></h1>
+            <p class="tagline">"代码铸就未来，算法改变世界——用严谨的逻辑书写无限可能。"</p>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="product.html">产品</a></li>
+                <li><a href="introduce.html">关于我们</a></li>
+                <li><a href="development.html">开发历程</a></li>
+                <li><a href="contact.html" class="active">联系我们</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="contact-section">
+            <h2>联系我们</h2>
+
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>联系方式</h3>
+
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <div class="info-content">
+                            <h4>办公地址</h4>
+                            <p>请看到这里的人自己猜</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">📞</div>
+                        <div class="info-content">
+                            <h4>联系电话</h4>
+                            <p>+86 123 4567 8910</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">✉️</div>
+                        <div class="info-content">
+                            <h4>电子邮箱</h4>
+                            <p>wyjy@aliyun.com</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">🕒</div>
+                        <div class="info-content">
+                            <h4>工作时间</h4>
+                            <p>周五至周日: 9:00 - 18:00</p>
+                            <p>工作日: 休息</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3>发送消息</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">姓名</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">邮箱</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">主题</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">消息内容</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn submit-btn">发送消息</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="map-container">
+                <h3>我们的位置</h3>
+                <div class="map-placeholder">
+                    <!-- 这里可以替换为实际的地图嵌入代码 -->
+                    <img src="images/map-placeholder.jpg" alt="公司位置地图" loading="lazy">
+                    <a href="#" class="btn map-btn">查看大图</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2023 CYAN工作室. 保留所有权利.</p>
+            <div class="social-links">
+                <a href="#" aria-label="微博">微博</a>
+                <a href="#" aria-label="GitHub">GitHub</a>
+                <a href="#" aria-label="邮箱">联系我们</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/contact.js"></script>
+</body>
+</html>

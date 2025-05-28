@@ -1,18 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>CYAN工作室/关于我们</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关于我们 - CYAN工作室</title>
     <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div>
-        <h1>关于我们</h1>
-    </div>
-    <div>
-        <p>室长：伍严靖悦(cyan)</p>
-        <p>成员：章钰杭(我盐都不盐了)</p>
-    </div>
-    <a href="index.html">回到主页</a>
+    <header class="main-header">
+        <div class="container">
+            <h1 class="logo">CYAN<span>工作室</span></h1>
+            <p class="tagline">"代码铸就未来，算法改变世界——用严谨的逻辑书写无限可能。"</p>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="product.html">产品</a></li>
+                <li><a href="introduce.html" class="active">关于我们</a></li>
+                <li><a href="contact.html">联系我们</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="about-section">
+            <h2>关于CYAN工作室</h2>
+
+            <article class="about-card">
+                <div class="about-content">
+                    <h3>我们的故事</h3>
+                    <p>CYAN工作室成立于2025年，由一群热爱编程和技术创新的年轻人创立。我们致力于通过代码解决实际问题，创造有价值的数字产品。</p>
+                </div>
+                <div class="about-image">
+                </div>
+            </article>
+
+            <article class="about-card reverse">
+                <div class="about-content">
+                    <h3>我们的使命</h3>
+                    <p>我们相信技术应该服务于人，而不是相反。我们的使命是:</p>
+                    <ul class="mission-list">
+                        <li>开发易用、高效的软件产品</li>
+                        <li>推动技术创新和知识共享</li>
+                        <li>培养下一代技术人才</li>
+                        <li>用技术解决社会问题</li>
+                    </ul>
+                </div>
+            </article>
+
+            <div class="team-section">
+                <h3>核心团队</h3>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <h4>章工程师</h4>
+                        <p class="position">技术总监</p>
+                    </div>
+                    <div class="team-member">
+                        <h4>伍室长</h4>
+                        <p class="position">伍室长</p>
+                        <p class="bio">监督章工程师和开发产品</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2023 CYAN工作室. 保留所有权利.</p>
+            <div class="social-links">
+                <a href="#" aria-label="微博">微博</a>
+                <a href="#" aria-label="GitHub">GitHub</a>
+                <a href="#" aria-label="邮箱">联系我们</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

@@ -1,28 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>CYAN工作室</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYAN工作室 - 代码铸就未来</title>
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <div>
-    <h1>CYAN工作室</h1>
-        <p style="color:blue">"代码铸就未来，算法改变世界——用严谨的逻辑书写无限可能。"</p>
-    </div>
-    <br>
-    <br>
-    <div>
-        <h2 style="color:red;">新闻</h2>
-        <h3 style="color:yellow;">后室阅览器已免费上架商店</h3>
-        <p>目前共有15篇文章，正在加紧扩充中！</p>
-    </div>
-    <br>
-    <br>
-    <div>
-        <a href="introduce.html">关于我们</a>
-        <br>
-        <a href="product.html">产品</a>
-    </div>
+    <header class="main-header">
+        <div class="container">
+            <h1 class="logo">CYAN<span>工作室</span></h1>
+            <p class="tagline">"代码铸就未来，算法改变世界——用严谨的逻辑书写无限可能。"</p>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="product.html">产品</a></li>
+                <li><a href="introduce.html">关于我们</a></li>
+                <li><a href="contact.html">联系我们</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="news-section">
+            <h2>最新动态</h2>
+            <article class="news-card">
+                <h3>后室阅览器已免费上架商店</h3>
+                <p>目前共有15篇文章，正在加紧扩充中！</p>
+            </article>
+
+            <article class="news-card">
+                <h3>新版本更新预告</h3>
+                <p>我们即将推出全新功能，敬请期待！</p>
+                <a href="Development.html" class="btn">查看详情</a>
+            </article>
+        </section>
+    </main>
 </body>
 </html>
